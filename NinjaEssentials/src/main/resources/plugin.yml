@@ -1,0 +1,21 @@
+name: NinjaEssentials
+version: ${project.version}
+main: com.blueninjar.ninjaessentials.NinjaEssentials
+authors: [BlueNinjar]
+
+commands:
+  staff:
+    useage: /<command>
+    description: Command to staff message.
+  sv:
+    useage: /<command>
+    description: Command to vanish staff.
+permissions:
+  ninjafactions.cansee.vanished:
+    description: Permission to allow you to see a vanished person.
+  ninjafactions.vanished:
+    description: Permission to allow you to use staff chat.
+  ninjafactions.staffchat:
+    description: Permission to allow you to use staff chat.
+  ninjafactions.staffchat.see:
+    description: Permission to allow you to see staff chat.
